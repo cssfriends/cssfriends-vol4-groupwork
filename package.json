@@ -1,0 +1,22 @@
+{
+  "name": "cssfriends-vol4-groupwork",
+  "version": "1.0.0",
+  "description": "CSSフレンズ #4「CSSで失敗した暴露話とリファクタリング」",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "server": "browser-sync start --config bs-config.js"
+  },
+  "author": {
+    "name": "cssfriends"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
