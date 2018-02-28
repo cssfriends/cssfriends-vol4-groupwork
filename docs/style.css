@@ -67,3 +67,33 @@ p {
 .box p {
   margin: 0;
 }
+
+.body_class .container_class .section_class .paragraph_class.paragraph_class_01 .img_class {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid #f9f9f9;
+  box-sizing: border-box;
+}
+
+.body_class .container_class .section_class .paragraph_class.paragraph_class_02 .img_class {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid #009900;
+  box-sizing: border-box;
+}
+
+/*.paragraph_class .img_class {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+}
+.paragraph_class.paragraph_class_01 .img_class {
+  border-color: #f9f9f9;
+}
+.paragraph_class.paragraph_class_02 .img_class {
+  border-color: #009900;
+}*/
