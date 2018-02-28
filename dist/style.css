@@ -1,3 +1,18 @@
 body {
   margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Meiryo, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hogeMoge {
+  margin-top: 1em;
+}
+
+.hoge__moge {
+  margin-top: 2em;
 }
