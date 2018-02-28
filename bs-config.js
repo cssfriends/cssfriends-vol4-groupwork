@@ -29,7 +29,7 @@ module.exports = {
   'server': {
     'baseDir': 'dist',
     'index': 'index.html',
-    'directory': true
+    'directory': false
   },
   'proxy': false,
   'port': 3000,
