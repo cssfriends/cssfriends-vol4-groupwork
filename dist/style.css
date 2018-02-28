@@ -7,6 +7,18 @@ body {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .hogeMoge {
@@ -38,4 +50,20 @@ p {
 
 .hoge ul li a {
   color: #F00;
+}
+
+.card {
+  display: flex;
+}
+
+.card p {
+  margin: 0;
+}
+
+.box {
+  display: flex;
+}
+
+.box p {
+  margin: 0;
 }
