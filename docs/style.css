@@ -21,6 +21,10 @@ body {
   max-width: 100%;
 }
 
+#section {
+  margin-top: 1em;
+}
+
 .hogeMoge {
   margin-top: 1em;
 }
@@ -97,3 +101,15 @@ p {
 .paragraph_class.paragraph_class_02 .img_class {
   border-color: #009900;
 }*/
+
+.overlap {
+  width: 960px;
+  border: 1px solid #ff0000;
+  padding: 2em;
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 1.4;
+  box-sizing: border-box;
+  width: 100%;
+  border-color: #0066ff;
+}
