@@ -1,9 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Meiryo, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Hiragino Sans, '.SFNSDisplay-Regular', 'メイリオ', Arial, sans-serif;
+  line-height: 1.5;
 }
 
+/**-------------------------------------------------------------
+ * Grid
+ ------------------------------------------------------------**/
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -21,6 +25,57 @@ body {
   max-width: 100%;
 }
 
+/**-------------------------------------------------------------
+ * .header
+ ------------------------------------------------------------**/
+.header {
+  background: url("images/dot.gif") 0 0 /auto repeat, url("images/hero.jpg") center center /cover no-repeat;
+  background-blend-mode: overlay;
+  min-height: 100vh;
+}
+
+.header__info {
+  color: #FFF;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.header__info p {
+  color: #FFF;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+
+.headline {
+  color: #FFF;
+  text-shadow: 1px 1px 3px #000;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.logo {
+  max-width: 40%;
+  margin-top: 2em;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.btn a {
+  background: linear-gradient(to bottom,  #c82a16 0%,#c82a16 50%,#a82410 51%,#a82410 100%);
+  color: #FFF;
+  border-radius: 6px;
+  padding: 1em 2em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/**-------------------------------------------------------------
+ * Anti Patterns
+ ------------------------------------------------------------**/
 #section {
   margin-top: 1em;
 }
@@ -31,10 +86,6 @@ body {
 
 .hoge__moge {
   margin-top: 2em;
-}
-
-.mt-10 {
-  margin-top: 15px;
 }
 
 .hoge .moge {
@@ -49,7 +100,11 @@ section {
 }
 
 p {
-  color: #A1A1A1;
+  color: #666;
+}
+
+h2 {
+  border-bottom: 1px solid #666;
 }
 
 .hoge ul li a {
@@ -112,4 +167,15 @@ p {
   box-sizing: border-box;
   width: 100%;
   border-color: #0066ff;
+}
+
+/**-------------------------------------------------------------
+ * Utility
+ ------------------------------------------------------------**/
+.mt-10 {
+  margin-top: 15px;
+}
+
+.tac {
+  text-align: center;
 }
