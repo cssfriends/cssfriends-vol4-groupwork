@@ -16,3 +16,7 @@ body {
 .hoge__moge {
   margin-top: 2em;
 }
+
+.mt-10 {
+  margin-top: 15px;
+}
