@@ -27,3 +27,15 @@ body {
 .moge {
   margin-top: 1em !important;
 }
+
+section {
+  padding: 1em;
+}
+
+p {
+  color: #A1A1A1;
+}
+
+.hoge ul li a {
+  color: #F00;
+}
