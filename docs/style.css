@@ -120,6 +120,59 @@ li {
 .overview h2 {
   border-bottom: 1px solid #666;
   padding-bottom: .3em;
+}
+
+
+/* Session */
+.session h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+.session .btn {
+  text-align: center;
+  margin-top: 3em;
+}
+.session .btn a {
+  background: linear-gradient(to bottom,  #c82a16 0%,#c82a16 50%,#a82410 51%,#a82410 100%);
+  color: #FFF;
+  border-radius: 6px;
+  padding: 1em 2em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/* Target */
+.target h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* Date and Place */
+.date_place h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* Fee */
+.fee h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* About us */
+.aboutus h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* .member */
+.member h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
   font-size: 1.5em;
 }
 
