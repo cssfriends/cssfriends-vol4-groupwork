@@ -59,20 +59,6 @@ body {
   margin-top: 2em;
 }
 
-.btn {
-  text-align: center;
-  margin-top: 3em;
-}
-
-.btn a {
-  background: linear-gradient(to bottom,  #c82a16 0%,#c82a16 50%,#a82410 51%,#a82410 100%);
-  color: #FFF;
-  border-radius: 6px;
-  padding: 1em 2em;
-  font-size: 1em;
-  text-decoration: none;
-}
-
 /**-------------------------------------------------------------
  * Anti Patterns
  ------------------------------------------------------------**/
@@ -107,75 +93,129 @@ li {
   color: #666;
 }
 
-h2 {
+/* Overview */
+.overview h2 {
   border-bottom: 1px solid #666;
   padding-bottom: .3em;
 }
 
-.hoge ul li a {
+
+/* Session */
+.session h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+.session .btn {
+  text-align: center;
+  margin-top: 3em;
+}
+.session .btn a {
+  background: linear-gradient(to bottom,  #c82a16 0%,#c82a16 50%,#a82410 51%,#a82410 100%);
+  color: #FFF;
+  border-radius: 6px;
+  padding: 1em 2em;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+/* Target */
+.target h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* Date and Place */
+.date_place h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* Fee */
+.fee h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* About us */
+.aboutus h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+
+/* .member */
+.member h2 {
+  border-bottom: 1px solid #666;
+  padding-bottom: .3em;
+}
+
+.member .aboutus .hoge ul li a {
   color: #666;
 }
 
-.card {
+.member  .card {
   display: flex;
   margin-top: 1em;
 }
 
-.card p {
+.member .card p {
   margin: 0;
 }
 
-.row .col .card .thumbnail {
+.member .row .col .card .thumbnail {
   max-width: 30%;
 }
 
-.row .col .card .thumbnail img {
+.member .row .col .card .thumbnail img {
   display: block;
   width: 100%;
   height: auto;
   max-width: 100%;
 }
 
-.row .col .card .thumbnail.thumbnail_1 img {
+.member .row .col .card .thumbnail.thumbnail_1 img {
   border: 2px solid #CCC;
   box-sizing: border-box;
 }
 
-.row .col .card .thumbnail.thumbnail_2 img {
+.member .row .col .card .thumbnail.thumbnail_2 img {
   border: 2px solid #666;
   box-sizing: border-box;
 }
 
-.profile {
+.member .profile {
   margin-left: 1em;
 }
 
-.box {
+.member .box {
   display: flex;
   margin-top: 1em;
 }
 
-.box p {
+.member .box p {
   margin: 0;
 }
 
-.row .col .box .thumbnail {
+.member .row .col .box .thumbnail {
   max-width: 30%;
 }
 
-.row .col .box .thumbnail img {
+.member .row .col .box .thumbnail img {
   display: block;
   width: 100%;
   height: auto;
   max-width: 100%;
 }
 
-.row .col .box .thumbnail.thumbnail_1 img {
+.member .row .col .box .thumbnail.thumbnail_1 img {
   border: 2px solid #CCC;
   box-sizing: border-box;
 }
 
-.row .col .box .thumbnail.thumbnail_2 img {
+.member .row .col .box .thumbnail.thumbnail_2 img {
   border: 2px solid #666;
   box-sizing: border-box;
 }
