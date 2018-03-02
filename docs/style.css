@@ -190,7 +190,7 @@ li {
   color: #666;
 }
 
-.member  .card {
+.member .card {
   display: flex;
   margin-top: 1em;
 }
@@ -252,6 +252,12 @@ li {
 .member .row .col .box .thumbnail.thumbnail_2 img {
   border: 2px solid #666;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 999px) {
+  .member .row .col {
+    flex-basis: 100%;
+  }
 }
 
 .twitter_btn {
