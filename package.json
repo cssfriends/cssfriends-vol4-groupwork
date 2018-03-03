@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
-    "server": "browser-sync start --config bs-config.js"
+    "server": "browser-sync start --config bs-config.js",
+    "zip": "zip -r cssfriends-vol4.zip docs"
   },
   "author": {
     "name": "cssfriends"
