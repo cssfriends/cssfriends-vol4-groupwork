@@ -54,6 +54,10 @@ body {
   line-height: 1.4;
 }
 
+.header__info .jyuusyo {
+  margin-top: 1em;
+}
+
 @media screen and (max-width: 999px) {
   .header__info p {
     font-size: 1.2em;
@@ -100,6 +104,7 @@ body {
 .hoge .moge {
   margin-top: 2em !important;
 }
+
 .moge {
   margin-top: 1em !important;
 }
@@ -109,29 +114,30 @@ section {
 }
 
 p {
-  color: #666;
+  color: #666666;
 }
 
 li {
-  color: #666;
+  color: #666666;
 }
 
 /* Overview */
 .overview h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
-
 
 /* Session */
 .session h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
+
 .session .btn {
   text-align: center;
   margin-top: 3em;
 }
+
 .session .btn a {
   background: linear-gradient(to bottom,  #c82a16 0%,#c82a16 50%,#a82410 51%,#a82410 100%);
   color: #FFF;
@@ -143,41 +149,41 @@ li {
 
 /* Target */
 .target h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* Date and Place */
 .date_place h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* Fee */
 .fee h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* About us */
 .aboutus h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* .member */
 .member h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
   font-size: 1.5em;
 }
 
 .headline {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
   font-size: 1.5em;
   margin-top: 0.83em;
@@ -189,7 +195,7 @@ li {
 
 /* Session */
 .session h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 .session .btn {
@@ -207,40 +213,40 @@ li {
 
 /* Target */
 .target h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* Date and Place */
 .date_place h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* Fee */
 .fee h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* About us */
 .aboutus h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 
 /* .member */
 .member h2 {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #666666;
   padding-bottom: .3em;
 }
 
 .member .aboutus .hoge ul li a {
-  color: #666;
+  color: #666666;
 }
 
 .member .card {
@@ -269,7 +275,7 @@ li {
 }
 
 .member .row .col .card .thumbnail.thumbnail_2 img {
-  border: 2px solid #666;
+  border: 2px solid #666666;
   box-sizing: border-box;
 }
 
@@ -303,7 +309,7 @@ li {
 }
 
 .member .row .col .box .thumbnail.thumbnail_2 img {
-  border: 2px solid #666;
+  border: 2px solid #666666;
   box-sizing: border-box;
 }
 
