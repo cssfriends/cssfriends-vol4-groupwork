@@ -36,7 +36,7 @@ CSS の書き方に正解はないと思いますので、メンター様ご自�
 - `!important` の使用
 	- `.hoge .moge` と `.moge`
 - `.mt-10` で、15px 開ける
-	- `.mt-15 { margin-top: 15px; }`
+	- `.mt-10 { margin-top: 15px; }`
 - キャメルケースとスネークケースを混在する
 	- `.hogeMoge` と `.hoge__moge`
 - ネストが深すぎる
