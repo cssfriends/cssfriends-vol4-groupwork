@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rm -rf dist",
     "server": "browser-sync start --config bs-config.js",
-    "zip": "zip -r cssfriends-vol4.zip docs"
+    "zip": "zip -r cssfriends-vol4.zip docs",
+    "css": "css-purge -i docs/style.css -o docs/style.min.css -m docs/index.html"
   },
   "author": {
     "name": "cssfriends"
@@ -18,6 +19,7 @@
     ]
   },
   "dependencies": {
-    "browser-sync": "^2.23.6"
+    "browser-sync": "^2.23.6",
+    "css-purge": "^3.0.4"
   }
 }
